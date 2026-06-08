@@ -11,11 +11,12 @@
 
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-xs">
         <div class="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
-            <a href="#" class="font-bold text-slate-900 tracking-tight text-sm md:text-base">MC. Canales</a>
-            <div class="flex gap-6 text-sm font-medium text-slate-600">
+            <a href="#" class="font-bold text-slate-900 tracking-tight text-sm">C. CANALES</a>
+            <div class="flex gap-6 text-xs md:text-sm font-medium text-slate-600">
                 <a href="#about" class="hover:text-blue-600 transition-colors">Sobre mí</a>
-                <a href="#experiencia" class="hover:text-blue-600 transition-colors">Experiencia</a>
+                <a href="#skills" class="hover:text-blue-600 transition-colors">Habilidades</a>
                 <a href="#proyectos" class="hover:text-blue-600 transition-colors">Proyectos</a>
+                <a href="#experiencia" class="hover:text-blue-600 transition-colors">Experiencia</a>
             </div>
         </div>
     </nav>
@@ -23,12 +24,26 @@
     <header class="max-w-4xl mx-auto px-6 pt-16 pb-12">
         <div class="flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
             <img src="https://github.com/carmencnles.png" alt="Carmen Canales" class="w-24 h-24 rounded-full border-2 border-white shadow-md">
-            <div>
-                <h1 class="text-3xl font-bold text-slate-900 tracking-tight">María del Carmen Canales</h1>
-                <p class="text-lg text-blue-600 font-medium mt-1">Analista de Datos</p>
-                <div class="flex justify-center md:justify-start gap-4 mt-4 text-slate-400">
-                    <a href="https://www.linkedin.com/in/mcarmencanales/" target="_blank" class="hover:text-blue-600 transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
-                    <a href="https://github.com/carmencnles" target="_blank" class="hover:text-slate-900 transition-colors"><i class="fab fa-github text-xl"></i></a>
+            <div class="flex-1">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                    <div>
+                        <h1 class="text-3xl font-bold text-slate-900 tracking-tight">María del Carmen Canales</h1>
+                        <p class="text-lg text-blue-600 font-semibold mt-0.5">Data Analyst / BI Specialist</p>
+                    </div>
+                    <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-xl px-3 py-1.5 self-center md:self-start">
+                        <i class="fas fa-certificate text-blue-600 text-sm"></i>
+                        <span class="text-[11px] font-bold text-blue-800 tracking-wide uppercase">Power BI Certified Associate</span>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap justify-center md:justify-start items-center gap-4 mt-4 text-xs text-slate-500">
+                    <span><i class="fas fa-map-marker-alt text-slate-400 mr-1"></i> Cantabria, España</span>
+                    <span class="text-slate-300">|</span>
+                    <a href="mailto:mcarmencanales1@gmail.com" class="hover:text-blue-600 flex items-center gap-1 transition-colors"><i class="fas fa-envelope text-slate-400"></i> mcarmencanales1@gmail.com</a>
+                    <span class="text-slate-300">|</span>
+                    <a href="https://www.linkedin.com/in/mcarmencanales/" target="_blank" class="hover:text-blue-600 flex items-center gap-1 transition-colors"><i class="fab fa-linkedin text-slate-400"></i> LinkedIn</a>
+                    <span class="text-slate-300">|</span>
+                    <a href="https://github.com/carmencnles" target="_blank" class="hover:text-slate-900 flex items-center gap-1 transition-colors"><i class="fab fa-github text-slate-400"></i> GitHub</a>
                 </div>
             </div>
         </div>
@@ -37,94 +52,144 @@
     <div class="max-w-4xl mx-auto px-6 space-y-16 pb-24">
         
         <section id="about" class="scroll-mt-20">
-            <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                <i class="fas fa-user text-blue-600 text-xs"></i> Sobre mí
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
+                <i class="fas fa-user text-blue-600 text-[10px]"></i> Perfil Profesional
             </h2>
             <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs leading-relaxed text-slate-600 text-sm space-y-3">
                 <p>
-                    Soy profesional orientada al ámbito tecnológico, actualmente desempeñándome como **Técnico de Soporte** y expandiendo activamente mi especialización mediante estudios superiores en **Inteligencia Artificial y Big Data**.
+                    Apasionada del análisis de datos con profundos conocimientos en la **visualización, modelado y transformación de datos** enfocados a la optimización de procesos empresariales estratégicos. 
                 </p>
                 <p>
-                    Mi verdadera pasión radica en el **análisis y modelado de datos**. Me enfoco en transformar bases de datos en bruto en narrativas visuales interactivas y cuadros de mando (*dashboards*) comprensibles utilizando **Power BI y lógicas avanzadas en DAX**, permitiendo a las organizaciones tomar decisiones respaldadas por evidencia.
+                    Como especialista certificada en herramientas de **Business Intelligence y entornos SQL**, cuento con un sólido dominio técnico en la arquitectura de flujos **ETL y desarrollo en Python** para automatizar el procesamiento analítico a gran escala, compaginando mi actividad con una formación especializada de alto rendimiento en **Inteligencia Artificial y Big Data**.
                 </p>
             </div>
         </section>
 
-        <section id="skills">
-            <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                <i class="fas fa-code text-blue-600 text-xs"></i> Habilidades Técnicas
+        <section id="skills" class="scroll-mt-20">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
+                <i class="fas fa-brain text-blue-600 text-[10px]"></i> Stack Tecnológico Competencial
             </h2>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-white border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-xs"><i class="fas fa-chart-bar text-yellow-500 mr-1"></i> Power BI</span>
-                <span class="bg-white border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-xs"><i class="fas fa-calculator text-blue-500 mr-1"></i> DAX Avanzado</span>
-                <span class="bg-white border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-xs"><i class="fas fa-brain text-purple-500 mr-1"></i> Inteligencia Artificial</span>
-                <span class="bg-white border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-xs"><i class="fas fa-database text-cyan-600 mr-1"></i> Big Data</span>
-                <span class="bg-white border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full shadow-xs"><i class="fas fa-headset text-emerald-500 mr-1"></i> Soporte IT</span>
-            </div>
-        </section>
-
-        <section id="experiencia" class="scroll-mt-20">
-            <h2 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
-                <i class="fas fa-briefcase text-blue-600 text-xs"></i> Experiencia Laboral
-            </h2>
-            <div class="space-y-4">
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs flex flex-col md:flex-row md:justify-between gap-2 md:items-start">
-                    <div>
-                        <h3 class="font-bold text-slate-950 text-base">Técnico de Soporte IT</h3>
-                        <p class="text-xs text-slate-400 mt-0.5">Empresa / Organización actual</p>
-                        <p class="text-slate-500 text-sm mt-3 leading-relaxed">
-                            Resolución de incidencias técnicas, mantenimiento de infraestructura informática básica, asistencia al usuario y optimización de flujos operativos IT cotidianos.
-                        </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                    <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-chart-pie text-amber-500"></i> Visualización & BI</h3>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Power BI (DAX Avanzado)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">QlikSense</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Tableau</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Excel Avanzado (Macros/VBA)</span>
                     </div>
-                    <span class="bg-slate-100 text-slate-600 text-[11px] font-medium px-2.5 py-1 rounded-md shrink-0 text-center">Actualidad</span>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                    <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-database text-cyan-600"></i> Arquitectura de Datos & ETL</h3>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">SQL Server</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">MySQL / PostgreSQL</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Spark / PySpark</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Procesos ETL Avanzados</span>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                    <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-code text-purple-600"></i> Lenguajes & Ingeniería</h3>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Python Analítico</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Scala (Spark)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Git / Control de versiones</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Automatización de Reportes</span>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                    <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-graduation-cap text-emerald-600"></i> Formación Clave</h3>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">CE. Inteligencia Artificial</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">CE. Big Data</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">GS. ASIR</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="proyectos" class="scroll-mt-20">
-            <h2 class="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
-                <i class="fas fa-folder-open text-blue-600 text-xs"></i> Proyectos Seleccionados
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+                <i class="fas fa-folder-open text-blue-600 text-[10px]"></i> Proyectos de Datos Destacados
             </h2>
-
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
                 <div class="bg-white rounded-2xl border border-slate-100 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
                     <div class="p-6">
                         <span class="bg-blue-50 text-blue-600 text-xs font-semibold px-2.5 py-1 rounded-md">Power BI / DAX</span>
                         <h3 class="text-base font-bold text-slate-900 mt-3 group-hover:text-blue-600 transition-colors">Eficiencia Energética y Fotovoltaica</h3>
                         <p class="text-slate-500 text-xs mt-2 leading-relaxed">
-                            Modelo analítico desarrollado en Power BI para evaluar el ahorro real de autoconsumo energético. Modelado DAX enfocado en la simulación predictiva de 4 escenarios de consumo complejos.
+                            Modelo analítico predictivo interactivo diseñado para evaluar el impacto económico real mediante simulación avanzada de 4 escenarios fotovoltaicos indexados a la tarifa horaria regulada.
                         </p>
                     </div>
                     <div class="px-6 pb-6 pt-2">
                         <a href="https://github.com/carmencnles/Analisis-Eficiencia-Energetica-PowerBI" target="_blank" class="inline-flex items-center text-xs font-semibold text-slate-900 hover:text-blue-600 gap-1">
-                            Ver Proyecto <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"></i>
+                            Explorar repositorio <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"></i>
                         </a>
                     </div>
                 </div>
-
                 <div class="bg-white rounded-2xl border border-slate-100 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
                     <div class="p-6">
                         <span class="bg-purple-50 text-purple-600 text-xs font-semibold px-2.5 py-1 rounded-md">IA / Big Data</span>
-                        <h3 class="text-base font-bold text-slate-900 mt-3 group-hover:text-purple-600 transition-colors">Detección de Incendios con IA</h3>
+                        <h3 class="text-base font-bold text-slate-900 mt-3 group-hover:text-purple-600 transition-colors">Predicción de Patrones de Incendios</h3>
                         <p class="text-slate-500 text-xs mt-2 leading-relaxed">
-                            Aplicación práctica de Inteligencia Artificial para el análisis estadístico y la predicción de patrones de riesgo en incendios forestales mediante grandes volúmenes de datos meteorológicos históricos.
+                            Estructuración, limpieza y tratamiento predictivo de datasets macro-meteorológicos históricos orientados al modelado lógico del riesgo y prevención forestal automatizada.
                         </p>
                     </div>
                     <div class="px-6 pb-6 pt-2">
                         <a href="https://github.com/carmencnles" target="_blank" class="inline-flex items-center text-xs font-semibold text-slate-900 hover:text-purple-600 gap-1">
-                            Ver Proyecto <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"></i>
+                            Explorar repositorio <i class="fas fa-arrow-right text-[10px] transition-transform group-hover:translate-x-1"></i>
                         </a>
                     </div>
                 </div>
-
             </div>
         </section>
-    </div>
 
-    <footer class="border-t border-slate-100 py-8 bg-white text-center text-xs text-slate-400">
-        <p>© 2026 María del Carmen Canales. Diseñado con un enfoque limpio y estructurado.</p>
-    </footer>
+        <section id="experiencia" class="scroll-mt-20">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+                <i class="fas fa-briefcase text-blue-600 text-[10px]"></i> Experiencia Profesional Seleccionada
+            </h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl border-l-4 border-l-blue-600 border-y border-r border-slate-100 shadow-xs">
+                    <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
+                        <div>
+                            <h3 class="font-bold text-slate-950 text-base">Analista de Datos (Prácticas)</h3>
+                            <p class="text-xs font-semibold text-slate-600 mt-0.5">NTT Data</p>
+                        </div>
+                        <span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase">Mar 2023 - Jun 2023</span>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs text-slate-600 list-disc pl-4 leading-relaxed">
+                        <li>Inmersión y diseño estratégico en herramientas corporativas de visualización e inteligencia empresarial avanzadas: **Power BI y QlikSense**.</li>
+                        <li>Desarrollo práctico de flujos e infraestructuras **ETL** mediante el uso del framework distribuido **Spark (Scala)** para procesamiento de datos a gran escala.</li>
+                        <li>Control de versiones, mantenimiento técnico y despliegues optimizados basados en metodologías colaborativas en **Git**.</li>
+                    </ul>
+                </div>
 
-</body>
-</html>
+                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs">
+                    <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-sm">Especialista en Infraestructura Tecnológica & Soporte Operativo IT</h3>
+                            <p class="text-[11px] text-slate-400 mt-0.5">Atos | Seidor Tech | Irium | Tiendas Conexión</p>
+                        </div>
+                        <span class="bg-slate-100 text-slate-600 text-[10px] font-medium px-2.5 py-1 rounded-md uppercase tracking-wider">2021 - Actualidad</span>
+                    </div>
+                    <p class="text-slate-500 text-xs mt-3 leading-relaxed">
+                        Mantenimiento, gestión del ecosistema informático y resolución técnica avanzada de incidencias empresariales críticas (N1). Experiencia sólida operando bajo metodologías organizativas estandarizadas de gestión de servicios (ITSM) a través de software de ticketing líder del sector corporativo (**ServiceNow**).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="educacion">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+                <i class="fas fa-graduation-cap text-blue-600 text-[10px]"></i> Educación y Especialización
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                    <span class="text-[10px] font-bold text-blue-600 uppercase tracking-wide">2025 - 2026</span>
+                    <h3 class="font-bold text-slate-900 text-sm mt-1">CE. Inteligencia Artificial y Big Data</h3>
+                    <p class="text-xs text-slate-400 mt-0.5">IES Miguel Herrero</p>
+                    <p class="text-slate-500 text-xs mt-2 leading-relaxed">Especialización práctica en Python analítico, modelados Big Data distribuidos con Spark, optimización SQL e inmersión en plataformas Tableau y Power BI.</p>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wide">2021 - 2023</span>
+                    <h3 class="font-bold text-slate-900 text-sm mt-1">GS. Administración
