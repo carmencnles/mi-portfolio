@@ -7,9 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-50/50 text-slate-800 font-sans antialiased scroll-smooth">
+<body class="bg-[#f0f4f8] text-slate-800 font-sans antialiased scroll-smooth">
 
-    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-xs">
+    <!-- Navbar con fondo ligeramente adaptado para no romper el contraste con el nuevo fondo -->
+    <nav class="sticky top-0 z-50 bg-[#f7f9fa]/90 backdrop-blur-md border-b border-slate-200/60 shadow-xs">
         <div class="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
             <a href="#" class="font-bold text-slate-900 tracking-tight text-sm">C. CANALES</a>
             <div class="flex gap-6 text-xs md:text-sm font-medium text-slate-600">
@@ -52,10 +53,10 @@
     <div class="max-w-4xl mx-auto px-6 space-y-16 pb-24">
         
         <section id="about" class="scroll-mt-20">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-4 flex items-center gap-2">
                 <i class="fas fa-user text-blue-600 text-[10px]"></i> Perfil Profesional
             </h2>
-            <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs leading-relaxed text-slate-600 text-sm">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs leading-relaxed text-slate-600 text-sm">
                 <p class="leading-relaxed">
                     Apasionada del análisis de datos con conocimientos en visualización, modelado y transformación de datos para la optimización de procesos empresariales. Especialista en herramientas de BI y SQL, con habilidades en Python y ETL para la automatización del procesamiento de datos.
                 </p>
@@ -63,51 +64,51 @@
         </section>
 
         <section id="skills" class="scroll-mt-20">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-4 flex items-center gap-2">
                 <i class="fas fa-brain text-blue-600 text-[10px]"></i> Habilidades Técnicas
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-2xs">
                     <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-code text-blue-600"></i> Lenguajes & DAX</h3>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Python</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">SQL</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">DAX</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Python</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">SQL</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">DAX</span>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-2xs">
                     <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-chart-pie text-amber-500"></i> Herramientas de BI</h3>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Power BI (Modelado de datos)</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">QlikSense</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Excel Avanzado (Tablas dinámicas, Macros VBA)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Power BI (Modelado de datos)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">QlikSense</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Excel Avanzado (Tablas dinámicas, Macros VBA)</span>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-2xs">
                     <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-database text-cyan-600"></i> ETL & Big Data</h3>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Spark (PySpark)</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Procesos ETL con SQL y Python</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Bases de datos (SQL Server, MySQL, PostgreSQL)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Spark (PySpark)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Procesos ETL con SQL y Python</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Bases de datos (SQL Server, MySQL, PostgreSQL)</span>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded-xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-2xs">
                     <h3 class="text-xs font-bold text-slate-900 flex items-center gap-1.5 mb-2.5"><i class="fas fa-cogs text-purple-600"></i> Automatización & Otros</h3>
                     <div class="flex flex-wrap gap-1.5">
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Git</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">Automatización de reportes con Python</span>
-                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-100">ServiceNow (Ticketing N1)</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Git</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">Automatización de reportes con Python</span>
+                        <span class="bg-slate-50 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md border border-slate-200/60">ServiceNow (Ticketing N1)</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="proyectos" class="scroll-mt-20">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-6 flex items-center gap-2">
                 <i class="fas fa-folder-open text-blue-600 text-[10px]"></i> Proyectos Destacados
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-2xl border border-slate-100 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
                     <div class="p-6">
                         <span class="bg-blue-50 text-blue-600 text-xs font-semibold px-2.5 py-1 rounded-md">Power BI / DAX</span>
                         <h3 class="text-base font-bold text-slate-900 mt-3 group-hover:text-blue-600 transition-colors">Eficiencia Energética y Fotovoltaica</h3>
@@ -121,7 +122,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl border border-slate-100 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+                <div class="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
                     <div class="p-6">
                         <span class="bg-purple-50 text-purple-600 text-xs font-semibold px-2.5 py-1 rounded-md">IA / Big Data</span>
                         <h3 class="text-base font-bold text-slate-900 mt-3 group-hover:text-purple-600 transition-colors">Detección de Incendios con IA</h3>
@@ -139,12 +140,12 @@
         </section>
 
         <section id="experiencia" class="scroll-mt-20">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-6 flex items-center gap-2">
                 <i class="fas fa-briefcase text-blue-600 text-[10px]"></i> Experiencia Laboral
             </h2>
             <div class="space-y-4">
                 
-                <div class="bg-white p-6 rounded-2xl border-l-4 border-l-blue-600 border-y border-r border-slate-100 shadow-xs">
+                <div class="bg-white p-6 rounded-2xl border-l-4 border-l-blue-600 border-y border-r border-slate-200/80 shadow-xs">
                     <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
                         <div>
                             <h3 class="font-bold text-slate-950 text-base">Analista de datos - Prácticas</h3>
@@ -158,7 +159,7 @@
                     </ul>
                 </div>
 
-                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-2xs">
                     <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
                         <div>
                             <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
@@ -171,7 +172,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-2xs">
                     <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
                         <div>
                             <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
@@ -184,7 +185,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-2xs">
                     <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
                         <div>
                             <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
@@ -197,7 +198,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-2xs">
+                <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-2xs">
                     <div class="flex flex-col sm:flex-row sm:justify-between items-start gap-1">
                         <div>
                             <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
@@ -214,11 +215,11 @@
         </section>
 
         <section id="educacion" class="scroll-mt-20">
-            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6 flex items-center gap-2">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-6 flex items-center gap-2">
                 <i class="fas fa-graduation-cap text-blue-600 text-[10px]"></i> Formación
             </h2>
             <div class="space-y-4">
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs">
+                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
                     <span class="text-[10px] font-bold text-blue-600 uppercase tracking-wide">2025 - 2026</span>
                     <h3 class="font-bold text-slate-900 text-sm mt-1">Curso de Especialización en Inteligencia Artificial y Big Data</h3>
                     <p class="text-xs font-semibold text-slate-500 mt-0.5">IES Miguel Herrero Pereda</p>
@@ -226,7 +227,7 @@
                         Análisis profundo enfocado en lenguajes de programación (<span class="font-semibold text-slate-900">Python, Spark, SQL</span>) y dominio de herramientas de análisis y business intelligence (<span class="font-semibold text-slate-900">Excel, Power BI, Tableau</span>).
                     </p>
                 </div>
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-xs">
+                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-xs">
                     <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wide">2021 - 2023</span>
                     <h3 class="font-bold text-slate-900 text-sm mt-1">Grado Superior Administración de Sistemas Informáticos en Red</h3>
                     <p class="text-xs font-semibold text-slate-500 mt-0.5">IES Miguel Herrero Pereda</p>
@@ -235,7 +236,8 @@
         </section>
     </div>
 
-    <footer class="border-t border-slate-100 py-8 bg-white text-center text-xs text-slate-400">
+    <!-- Footer ligeramente grisáceo para integrarse con el fondo ártico -->
+    <footer class="border-t border-slate-200/60 py-8 bg-[#f7f9fa] text-center text-xs text-slate-400">
         <p>© 2026 María del Carmen Canales. Portafolio Profesional Orientado al Dato.</p>
     </footer>
 
