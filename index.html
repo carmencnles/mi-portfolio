@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>María del Carmen Canales | Data Analyst Junior · Transición desde Sistemas TI</title>
     <meta name="description" content="Portfolio profesional de María del Carmen Canales, Data Analyst Junior en Cantabria. Enfoque en Power BI, SQL, Python y automatización de procesos de datos.">
-    <!-- Tailwind CSS v4 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- FontAwesome para iconos limpios -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
         .font-serif-clean { 
             font-family: 'Times New Roman', Times, serif; 
         }
-        /* Enfoque accesible visible y estético para navegación por teclado */
         *:focus-visible {
             outline: 3px solid #2563eb !important;
             outline-offset: 4px !important;
@@ -31,15 +28,13 @@
         }
     </style>
 </head>
-<body class="bg-white text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white">
 
-    <!-- ACCESIBILIDAD -->
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold z-50 shadow-xl">
         Saltar al contenido principal
     </a>
 
-    <!-- NAVBAR STICKY (MODO CLARO MÍNIMALISTA) -->
-    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80">
+    <header class="sticky top-0 z-50 bg-slate-50/90 backdrop-blur-md border-b border-slate-200">
         <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between" aria-label="Navegación principal">
             <a href="#" class="font-mono font-bold text-base tracking-tight text-blue-950 hover:text-blue-600 transition-colors" aria-label="Inicio de la página">
                 M. CANALES
@@ -53,15 +48,12 @@
         </nav>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main id="main-content" class="max-w-6xl mx-auto px-6 pt-12 md:pt-20 space-y-24 pb-24">
         
-        <!-- HERO SECTION (ESTILO CLARO LIMPIO Y SIN DUPLICIDADES) -->
         <section class="flex flex-col md:flex-row items-center gap-8 md:gap-12 pb-6" aria-label="Presentación">
             <div class="relative group shrink-0">
                 <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-sm opacity-20 group-hover:opacity-40 transition duration-300"></div>
-                <!-- TU FOTO PROFESIONAL PERSONAL -->
-                <img src="img/maria-del-carmen.jpg" alt="Fotografía profesional de María del Carmen Canales" class="relative w-28 h-28 md:w-32 md:h-32 rounded-full border-2 border-slate-200 object-cover shadow-sm" loading="eager">
+                <img src="img/maria-del-carmen.jpg" alt="Fotografía profesional de María del Carmen Canales" class="relative w-28 h-28 md:w-32 md:h-32 rounded-full border-2 border-slate-300 object-cover shadow-sm" loading="eager">
             </div>
             
             <div class="flex-1 text-center md:text-left space-y-4">
@@ -70,24 +62,21 @@
                         María del Carmen Canales
                     </h1>
                     <p class="text-lg md:text-xl text-blue-600 font-mono font-semibold tracking-wide">
-                        Data Analyst Junior <span class="text-slate-400 font-sans font-normal text-base block md:inline md:ml-2">· Transición desde Sistemas TI</span>
+                        Data Analyst Junior <span class="text-slate-500 font-sans font-normal text-base block md:inline md:ml-2">· Transición desde Sistemas TI</span>
                     </p>
                 </div>
                 
-                <!-- CERTIFICACIÓN -->
-                <div class="inline-flex items-center gap-2.5 bg-blue-50 border border-blue-200 rounded-xl px-4 py-2 self-center md:self-start shadow-sm">
-                    <i class="fas fa-certificate text-blue-600 text-sm" aria-hidden="true"></i>
+                <div class="inline-flex items-center gap-2.5 bg-blue-100/60 border border-blue-200 rounded-xl px-4 py-2 self-center md:self-start shadow-sm">
+                    <i class="fas fa-certificate text-blue-700 text-sm" aria-hidden="true"></i>
                     <span class="text-xs font-bold text-blue-900 tracking-wide uppercase font-mono">PL-300: Power BI Data Analyst Associate</span>
                 </div>
 
-                <!-- UN SOLO CTA DE CONTACTO DIRECTO -->
                 <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
                     <a href="mailto:mcarmencanales1@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-6 py-3 rounded-xl transition-all shadow-md hover:shadow-blue-200 flex items-center gap-2">
                         <i class="fas fa-envelope text-xs" aria-hidden="true"></i> Contactar por correo electrónico
                     </a>
                 </div>
                 
-                <!-- ENLACES SOCIALES DE ALTO CONTRASATE (MODO CLARO) -->
                 <div class="flex flex-wrap justify-center md:justify-start items-center gap-y-2 gap-x-5 pt-3 text-xs font-medium text-slate-600 border-t border-slate-200 mt-4">
                     <span class="flex items-center gap-1.5"><i class="fas fa-map-marker-alt text-slate-400" aria-hidden="true"></i> Cantabria</span>
                     <span class="hidden sm:inline text-slate-300">|</span>
@@ -98,221 +87,29 @@
             </div>
         </section>
 
-        <!-- SOBRE MÍ -->
         <section id="about" class="scroll-mt-24 space-y-4" aria-labelledby="title-about">
             <h2 id="title-about" class="text-xs font-bold uppercase tracking-widest text-slate-500 flex items-center gap-2 font-mono">
                 <i class="fas fa-user text-blue-600 text-[10px]" aria-hidden="true"></i> Perfil Profesional
             </h2>
-            <div class="bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200/60 shadow-sm">
+            <div class="bg-slate-100/70 p-6 md:p-8 rounded-2xl border border-slate-200 shadow-sm">
                 <p class="font-serif-clean text-lg md:text-xl text-slate-900 leading-relaxed tracking-wide">
                     Orientada al análisis de datos con formación práctica en visualización, modelado y transformación para la optimización de procesos. Manejo de herramientas de BI y SQL, con aplicación de Python y ETL para la automatización del procesamiento de información.
                 </p>
             </div>
         </section>
 
-        <!-- SKILLS ORGANIZADOS -->
         <section id="skills" class="scroll-mt-24 space-y-4" aria-labelledby="title-skills">
             <h2 id="title-skills" class="text-xs font-bold uppercase tracking-widest text-slate-500 flex items-center gap-2 font-mono">
                 <i class="fas fa-brain text-blue-600 text-[10px]" aria-hidden="true"></i> Habilidades Técnicas
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/60 shadow-sm space-y-3">
+                <div class="bg-slate-100/70 p-5 rounded-xl border border-slate-200 shadow-sm space-y-3">
                     <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2 font-mono"><i class="fas fa-code text-blue-600" aria-hidden="true"></i> Lenguajes & DAX</h3>
                     <div class="flex flex-wrap gap-2">
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Python</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">SQL</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">DAX</span>
+                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200/80">Python</span>
+                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200/80">SQL</span>
+                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200/80">DAX</span>
                     </div>
                 </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/60 shadow-sm space-y-3">
-                    <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2 font-mono"><i class="fas fa-chart-pie text-amber-600" aria-hidden="true"></i> Herramientas de BI</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Power BI (Modelado de datos)</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">QlikSense</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Excel (Tablas dinámicas, Macros VBA)</span>
-                    </div>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/60 shadow-sm space-y-3">
-                    <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2 font-mono"><i class="fas fa-database text-teal-600" aria-hidden="true"></i> ETL & Big Data</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Spark (PySpark)</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Procesos ETL con SQL y Python</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Bases de datos (SQL Server, MySQL, PostgreSQL)</span>
-                    </div>
-                </div>
-                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200/60 shadow-sm space-y-3">
-                    <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2 font-mono"><i class="fas fa-cogs text-purple-600" aria-hidden="true"></i> Automatización & Otros</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Git</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">Automatización de reportes con Python</span>
-                        <span class="bg-white text-slate-700 text-xs font-mono px-2.5 py-1 rounded-lg border border-slate-200">ServiceNow (Ticketing N1)</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PROYECTOS (ESTILO CLARO) -->
-        <section id="proyectos" class="scroll-mt-24 space-y-6" aria-labelledby="title-proyectos">
-            <h2 id="title-proyectos" class="text-xs font-bold uppercase tracking-widest text-slate-500 flex items-center gap-2 font-mono">
-                <i class="fas fa-folder-open text-blue-600 text-[10px]" aria-hidden="true"></i> Proyectos Destacados
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
-                <!-- PROYECTO 1 -->
-                <article class="bg-slate-50 rounded-2xl border border-slate-200 hover:border-blue-300 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
-                    <div class="p-6 space-y-4">
-                        <div class="flex items-center justify-between">
-                            <span class="bg-blue-50 text-blue-700 text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-md border border-blue-200">Power BI / DAX</span>
-                            <i class="fas fa-chart-bar text-slate-400 group-hover:text-blue-600 transition-colors" aria-hidden="true"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-blue-950 group-hover:text-blue-600 transition-colors">
-                            Eficiencia Energética y Fotovoltaica
-                        </h3>
-                        <p class="font-serif-clean text-base text-slate-700 leading-relaxed">
-                            Modelo analítico práctico diseñado para evaluar el impacto económico y el ahorro mediante autoconsumo fotovoltaico. Simulación de escenarios de consumo.
-                        </p>
-                    </div>
-                    <div class="px-6 pb-6 pt-2">
-                        <a href="https://github.com/carmencnles/Analisis-Eficiencia-Energetica-PowerBI" target="_blank" rel="noopener" class="inline-flex items-center text-xs font-bold text-slate-700 hover:text-blue-600 gap-1.5 font-mono group/link" aria-label="Ver repositorio del proyecto Eficiencia Energética (abre en pestaña nueva)">
-                            Ver Repositorio <i class="fas fa-arrow-right text-[10px] transition-transform group-hover/link:translate-x-1" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- PROYECTO 2 -->
-                <article class="bg-slate-50 rounded-2xl border border-slate-200 hover:border-purple-300 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between overflow-hidden group">
-                    <div class="p-6 space-y-4">
-                        <div class="flex items-center justify-between">
-                            <span class="bg-purple-50 text-purple-700 text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-md border border-purple-200">IA / Big Data</span>
-                            <i class="fas fa-fire text-slate-400 group-hover:text-purple-600 transition-colors" aria-hidden="true"></i>
-                        </div>
-                        <h3 class="text-lg font-bold text-blue-950 group-hover:text-purple-600 transition-colors">
-                            Detección de Incendios con IA
-                        </h3>
-                        <p class="font-serif-clean text-base text-slate-700 leading-relaxed">
-                            Aplicación de Inteligencia Artificial para la prevención y análisis de patrones de riesgo en incendios forestales mediante tratamiento de variables meteorológicas.
-                        </p>
-                    </div>
-                    <div class="px-6 pb-6 pt-2">
-                        <a href="https://github.com/carmencnles/Proyecto---Incendios-Forestales" target="_blank" rel="noopener" class="inline-flex items-center text-xs font-bold text-slate-700 hover:text-purple-600 gap-1.5 font-mono group/link" aria-label="Ver repositorio del proyecto Detección de Incendios (abre en pestaña nueva)">
-                            Ver Repositorio <i class="fas fa-arrow-right text-[10px] transition-transform group-hover/link:translate-x-1" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- EXPERIENCIA LABORAL -->
-        <section id="experiencia" class="scroll-mt-24 space-y-6" aria-labelledby="title-experiencia">
-            <h2 id="title-experiencia" class="text-xs font-bold uppercase tracking-widest text-slate-500 flex items-center gap-2 font-mono">
-                <i class="fas fa-briefcase text-blue-600 text-[10px]" aria-hidden="true"></i> Experiencia Laboral
-            </h2>
-            <div class="space-y-4">
-                
-                <!-- EXPERIENCIA 1 (DESTACADA) -->
-                <article class="bg-slate-50 p-6 rounded-2xl border-l-4 border-l-blue-600 border-y border-r border-slate-200 shadow-sm">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
-                        <div>
-                            <h3 class="font-bold text-blue-950 text-base">Analista de datos - Prácticas</h3>
-                            <p class="text-xs font-mono font-semibold text-slate-500 mt-0.5">NTT Data</p>
-                        </div>
-                        <span class="bg-blue-100 text-blue-800 text-[10px] font-mono font-bold px-2.5 py-1 rounded-md border border-blue-200 tracking-wider uppercase self-start sm:self-auto shrink-0">
-                            Marzo 2023 - Junio 2023
-                        </span>
-                    </div>
-                    <ul class="font-serif-clean mt-4 space-y-2 text-base text-slate-700 list-disc pl-4 leading-relaxed">
-                        <li>Uso de herramientas de visualización analítica: <span class="font-bold text-blue-950">Power BI</span> y <span class="font-bold text-blue-950">QlikSense</span>.</li>
-                        <li>Desarrollo de procesos <span class="font-bold text-blue-950">ETL</span> mediante <span class="font-bold text-blue-950">GIT</span> y <span class="font-bold text-blue-950">Spark Scala</span>.</li>
-                    </ul>
-                </article>
-
-                <!-- EXPERIENCIA 2 -->
-                <article class="bg-slate-50/60 p-5 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
-                        <div>
-                            <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
-                            <p class="text-xs font-mono text-slate-500 mt-0.5">Atos</p>
-                        </div>
-                        <span class="text-slate-500 text-[11px] font-mono self-start sm:self-auto shrink-0">Diciembre 2025 - Actualidad</span>
-                    </div>
-                    <p class="font-serif-clean text-base text-slate-700 mt-3 leading-relaxed">
-                        Utilización de herramientas de ticketing (ServiceNow). Resolución de incidencias N1 y soporte informático tanto de software como de hardware.
-                    </p>
-                </article>
-
-                <!-- EXPERIENCIA 3 -->
-                <article class="bg-slate-50/60 p-5 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
-                        <div>
-                            <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
-                            <p class="text-xs font-mono text-slate-500 mt-0.5">Seidor Tech</p>
-                        </div>
-                        <span class="text-slate-500 text-[11px] font-mono self-start sm:self-auto shrink-0">Septiembre 2023 - Diciembre 2025</span>
-                    </div>
-                    <p class="font-serif-clean text-base text-slate-700 mt-3 leading-relaxed">
-                        Utilización de herramientas de ticketing (ServiceNow). Gestión y resolución de incidencias N1 junto con tareas de soporte informático software/hardware.
-                    </p>
-                </article>
-
-                <!-- EXPERIENCIA 4 -->
-                <article class="bg-slate-50/60 p-5 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
-                        <div>
-                            <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
-                            <p class="text-xs font-mono text-slate-500 mt-0.5">Irium</p>
-                        </div>
-                        <span class="text-slate-500 text-[11px] font-mono self-start sm:self-auto shrink-0">Julio 2023 - Agosto 2023</span>
-                    </div>
-                    <p class="font-serif-clean text-base text-slate-700 mt-3 leading-relaxed">
-                        Resolución de incidencias N1 y soporte informático software/hardware en entornos operativos corporativos.
-                    </p>
-                </article>
-
-                <!-- EXPERIENCIA 5 -->
-                <article class="bg-slate-50/60 p-5 rounded-2xl border border-slate-200 shadow-sm">
-                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
-                        <div>
-                            <h3 class="font-bold text-slate-900 text-sm">Técnico de soporte informático</h3>
-                            <p class="text-xs font-mono text-slate-500 mt-0.5">Tiendas Conexión S.L.U</p>
-                        </div>
-                        <span class="text-slate-500 text-[11px] font-mono self-start sm:self-auto shrink-0">Marzo 2021 - Enero 2022</span>
-                    </div>
-                    <p class="font-serif-clean text-base text-slate-700 mt-3 leading-relaxed">
-                        Resolución de incidencias N1 y asistencia de soporte técnico informático para hardware y software.
-                    </p>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- EDUCACIÓN -->
-        <section id="educacion" class="scroll-mt-24 space-y-6" aria-labelledby="title-educacion">
-            <h2 id="title-educacion" class="text-xs font-bold uppercase tracking-widest text-slate-500 flex items-center gap-2 font-mono">
-                <i class="fas fa-graduation-cap text-blue-600 text-[10px]" aria-hidden="true"></i> Formación
-            </h2>
-            <div class="space-y-4">
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-md">
-                    <span class="text-[10px] font-mono font-bold text-blue-600 uppercase tracking-wide">2025 - 2026</span>
-                    <h3 class="font-bold text-blue-950 text-base mt-1">Curso de Especialización en Inteligencia Artificial y Big Data</h3>
-                    <p class="text-xs font-semibold text-slate-500 font-mono mt-0.5">IES Miguel Herrero Pereda</p>
-                    <p class="font-serif-clean text-base text-slate-700 mt-3 leading-relaxed">
-                        Análisis enfocado en lenguajes de programación (Python, Spark, SQL) y uso de herramientas de análisis y business intelligence (Excel, Power BI, Tableau).
-                    </p>
-                </div>
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-md">
-                    <span class="text-[10px] font-mono font-bold text-slate-400 uppercase tracking-wide">2021 - 2023</span>
-                    <h3 class="font-bold text-blue-950 text-base mt-1">Grado Superior Administración de Sistemas Informáticos en Red</h3>
-                    <p class="text-xs font-semibold text-slate-500 font-mono mt-0.5">IES Miguel Herrero Pereda</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="border-t border-slate-200 py-8 bg-slate-50 text-center text-xs font-mono text-slate-500">
-        <p>© 2026 María del Carmen Canales. Portafolio Profesional Orientado al Dato.</p>
-    </footer>
-
-</body>
-</html>
+                <div class="bg-slate-100/70 p-5 rounded-xl border border-slate-200 shadow-sm space-y-3">
+                    <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2 font-mono"><i class="fas fa-chart
